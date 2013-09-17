@@ -7,6 +7,9 @@
 //
 
 #import "SPAppDelegate.h"
+#import "SPSystemController.h"
+#import "SPAddresses.h"
+
 
 @implementation SPAppDelegate
 
@@ -14,6 +17,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    SPSystemController * systemController = [SPSystemController sharedSystemController];
+    systemController.query = @"store+in+uk";
+    systemController.types = @"store";
+    [systemController businessServiceAddresses:kServiceEmulatorNearby withCompletion:^(SPAddresses * address, NSError * error){
+        
+        NSLog(@"ADDRESS : %@", address.addresses);
+    }];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

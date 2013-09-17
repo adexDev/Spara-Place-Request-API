@@ -16,6 +16,17 @@
 		CEB5BE0217B4405900B3E5D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB5BE0117B4405900B3E5D0 /* Default.png */; };
 		CEB5BE0417B4405900B3E5D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB5BE0317B4405900B3E5D0 /* Default@2x.png */; };
 		CEB5BE0617B4405900B3E5D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB5BE0517B4405900B3E5D0 /* Default-568h@2x.png */; };
+		CEB5BE0D17B440D400B3E5D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5BE0C17B440D400B3E5D0 /* CoreLocation.framework */; };
+		CEB5BE1217B468CC00B3E5D0 /* SPLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE1117B468CC00B3E5D0 /* SPLocationService.m */; };
+		CEB5BE1517B472E300B3E5D0 /* SPGeocodingService.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE1417B472E300B3E5D0 /* SPGeocodingService.m */; };
+		CEB5BE1817B4F6E000B3E5D0 /* SPSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE1717B4F6E000B3E5D0 /* SPSystemController.m */; };
+		CEB5BE1F17B58FB100B3E5D0 /* SPServiceEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE1E17B58FB100B3E5D0 /* SPServiceEmulator.m */; };
+		CEB5BE2217B5907100B3E5D0 /* SPAddresses.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE2117B5907100B3E5D0 /* SPAddresses.m */; };
+		CEB5BE2517B593BF00B3E5D0 /* SPServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE2417B593BF00B3E5D0 /* SPServiceController.m */; };
+		CEB5BE2817B596A600B3E5D0 /* SPServiceConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE2717B596A600B3E5D0 /* SPServiceConnection.m */; };
+		CEB5BE2E17B5BE5000B3E5D0 /* SPSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE2D17B5BE5000B3E5D0 /* SPSearchService.m */; };
+		CEB5BE3317B68E1000B3E5D0 /* SPAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE3217B68E1000B3E5D0 /* SPAddressManager.m */; };
+		CEB5BE3817B8286300B3E5D0 /* SPNearbyService.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BE3717B8286300B3E5D0 /* SPNearbyService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,29 @@
 		CEB5BE0117B4405900B3E5D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CEB5BE0317B4405900B3E5D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CEB5BE0517B4405900B3E5D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEB5BE0C17B440D400B3E5D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEB5BE1017B468CC00B3E5D0 /* SPLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLocationService.h; sourceTree = "<group>"; };
+		CEB5BE1117B468CC00B3E5D0 /* SPLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLocationService.m; sourceTree = "<group>"; };
+		CEB5BE1317B472E300B3E5D0 /* SPGeocodingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGeocodingService.h; sourceTree = "<group>"; };
+		CEB5BE1417B472E300B3E5D0 /* SPGeocodingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGeocodingService.m; sourceTree = "<group>"; };
+		CEB5BE1617B4F6E000B3E5D0 /* SPSystemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSystemController.h; sourceTree = "<group>"; };
+		CEB5BE1717B4F6E000B3E5D0 /* SPSystemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSystemController.m; sourceTree = "<group>"; };
+		CEB5BE1D17B58FB100B3E5D0 /* SPServiceEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPServiceEmulator.h; sourceTree = "<group>"; };
+		CEB5BE1E17B58FB100B3E5D0 /* SPServiceEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPServiceEmulator.m; sourceTree = "<group>"; };
+		CEB5BE2017B5907100B3E5D0 /* SPAddresses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddresses.h; sourceTree = "<group>"; };
+		CEB5BE2117B5907100B3E5D0 /* SPAddresses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddresses.m; sourceTree = "<group>"; };
+		CEB5BE2317B593BF00B3E5D0 /* SPServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPServiceController.h; sourceTree = "<group>"; };
+		CEB5BE2417B593BF00B3E5D0 /* SPServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPServiceController.m; sourceTree = "<group>"; };
+		CEB5BE2617B596A600B3E5D0 /* SPServiceConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPServiceConnection.h; sourceTree = "<group>"; };
+		CEB5BE2717B596A600B3E5D0 /* SPServiceConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPServiceConnection.m; sourceTree = "<group>"; };
+		CEB5BE2C17B5BE4F00B3E5D0 /* SPSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchService.h; sourceTree = "<group>"; };
+		CEB5BE2D17B5BE5000B3E5D0 /* SPSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchService.m; sourceTree = "<group>"; };
+		CEB5BE3117B68E1000B3E5D0 /* SPAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddressManager.h; sourceTree = "<group>"; };
+		CEB5BE3217B68E1000B3E5D0 /* SPAddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddressManager.m; sourceTree = "<group>"; };
+		CEB5BE3417B6908B00B3E5D0 /* SPServiceEmulatorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPServiceEmulatorConstants.h; sourceTree = "<group>"; };
+		CEB5BE3517B6917500B3E5D0 /* SPServiceParameterConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPServiceParameterConstants.h; sourceTree = "<group>"; };
+		CEB5BE3617B8286300B3E5D0 /* SPNearbyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNearbyService.h; sourceTree = "<group>"; };
+		CEB5BE3717B8286300B3E5D0 /* SPNearbyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNearbyService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB5BE0D17B440D400B3E5D0 /* CoreLocation.framework in Frameworks */,
 				CEB5BDF017B4405900B3E5D0 /* UIKit.framework in Frameworks */,
 				CEB5BDF217B4405900B3E5D0 /* Foundation.framework in Frameworks */,
 				CEB5BDF417B4405900B3E5D0 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +86,7 @@
 		CEB5BDE317B4405800B3E5D0 = {
 			isa = PBXGroup;
 			children = (
+				CEB5BE0E17B4686400B3E5D0 /* Model */,
 				CEB5BDF517B4405900B3E5D0 /* spara */,
 				CEB5BDEE17B4405900B3E5D0 /* Frameworks */,
 				CEB5BDED17B4405900B3E5D0 /* Products */,
@@ -68,6 +104,7 @@
 		CEB5BDEE17B4405900B3E5D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEB5BE0C17B440D400B3E5D0 /* CoreLocation.framework */,
 				CEB5BDEF17B4405900B3E5D0 /* UIKit.framework */,
 				CEB5BDF117B4405900B3E5D0 /* Foundation.framework */,
 				CEB5BDF317B4405900B3E5D0 /* CoreGraphics.framework */,
@@ -97,6 +134,67 @@
 				CEB5BE0517B4405900B3E5D0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB5BE0E17B4686400B3E5D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5BE1C17B58F0400B3E5D0 /* AddressManager */,
+				CEB5BE1B17B4F92500B3E5D0 /* constants */,
+				CEB5BE0F17B4686F00B3E5D0 /* SystemController */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CEB5BE0F17B4686F00B3E5D0 /* SystemController */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5BE1617B4F6E000B3E5D0 /* SPSystemController.h */,
+				CEB5BE1717B4F6E000B3E5D0 /* SPSystemController.m */,
+				CEB5BE1317B472E300B3E5D0 /* SPGeocodingService.h */,
+				CEB5BE1417B472E300B3E5D0 /* SPGeocodingService.m */,
+				CEB5BE1017B468CC00B3E5D0 /* SPLocationService.h */,
+				CEB5BE1117B468CC00B3E5D0 /* SPLocationService.m */,
+			);
+			name = SystemController;
+			sourceTree = "<group>";
+		};
+		CEB5BE1B17B4F92500B3E5D0 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5BE3517B6917500B3E5D0 /* SPServiceParameterConstants.h */,
+				CEB5BE3417B6908B00B3E5D0 /* SPServiceEmulatorConstants.h */,
+			);
+			name = constants;
+			sourceTree = "<group>";
+		};
+		CEB5BE1C17B58F0400B3E5D0 /* AddressManager */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5BE3117B68E1000B3E5D0 /* SPAddressManager.h */,
+				CEB5BE3217B68E1000B3E5D0 /* SPAddressManager.m */,
+				CEB5BE2317B593BF00B3E5D0 /* SPServiceController.h */,
+				CEB5BE2417B593BF00B3E5D0 /* SPServiceController.m */,
+				CEB5BE2617B596A600B3E5D0 /* SPServiceConnection.h */,
+				CEB5BE2717B596A600B3E5D0 /* SPServiceConnection.m */,
+				CEB5BE2017B5907100B3E5D0 /* SPAddresses.h */,
+				CEB5BE2117B5907100B3E5D0 /* SPAddresses.m */,
+				CEB5BE2F17B5BE6200B3E5D0 /* ServiceEmulator */,
+			);
+			name = AddressManager;
+			sourceTree = "<group>";
+		};
+		CEB5BE2F17B5BE6200B3E5D0 /* ServiceEmulator */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5BE1D17B58FB100B3E5D0 /* SPServiceEmulator.h */,
+				CEB5BE1E17B58FB100B3E5D0 /* SPServiceEmulator.m */,
+				CEB5BE2C17B5BE4F00B3E5D0 /* SPSearchService.h */,
+				CEB5BE2D17B5BE5000B3E5D0 /* SPSearchService.m */,
+				CEB5BE3617B8286300B3E5D0 /* SPNearbyService.h */,
+				CEB5BE3717B8286300B3E5D0 /* SPNearbyService.m */,
+			);
+			name = ServiceEmulator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +265,16 @@
 			files = (
 				CEB5BDFC17B4405900B3E5D0 /* main.m in Sources */,
 				CEB5BE0017B4405900B3E5D0 /* SPAppDelegate.m in Sources */,
+				CEB5BE1217B468CC00B3E5D0 /* SPLocationService.m in Sources */,
+				CEB5BE1517B472E300B3E5D0 /* SPGeocodingService.m in Sources */,
+				CEB5BE1817B4F6E000B3E5D0 /* SPSystemController.m in Sources */,
+				CEB5BE1F17B58FB100B3E5D0 /* SPServiceEmulator.m in Sources */,
+				CEB5BE2217B5907100B3E5D0 /* SPAddresses.m in Sources */,
+				CEB5BE2517B593BF00B3E5D0 /* SPServiceController.m in Sources */,
+				CEB5BE2817B596A600B3E5D0 /* SPServiceConnection.m in Sources */,
+				CEB5BE2E17B5BE5000B3E5D0 /* SPSearchService.m in Sources */,
+				CEB5BE3317B68E1000B3E5D0 /* SPAddressManager.m in Sources */,
+				CEB5BE3817B8286300B3E5D0 /* SPNearbyService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
